@@ -1,0 +1,36 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'sockets.io' ]
+2 info using npm@1.1.71
+3 info using node@v0.8.18
+4 verbose node symlink /usr/local/bin/node
+5 verbose read json /Users/shiv/Desktop/chat/package.json
+6 verbose read json /Users/shiv/Desktop/chat/package.json
+7 verbose cache add [ 'sockets.io', null ]
+8 silly cache add name=undefined spec="sockets.io" args=["sockets.io",null]
+9 verbose parsed url { pathname: 'sockets.io',
+9 verbose parsed url   path: 'sockets.io',
+9 verbose parsed url   href: 'sockets.io' }
+10 silly lockFile 7d5df757-sockets-io sockets.io
+11 verbose lock sockets.io /Users/shiv/.npm/7d5df757-sockets-io.lock
+12 silly lockFile 7d5df757-sockets-io sockets.io
+13 verbose addNamed [ 'sockets.io', '' ]
+14 verbose addNamed [ null, '' ]
+15 silly lockFile c6506731-sockets-io sockets.io@
+16 verbose lock sockets.io@ /Users/shiv/.npm/c6506731-sockets-io.lock
+17 silly lockFile c6506731-sockets-io sockets.io@
+18 error Error: EACCES, open '/Users/shiv/.npm/c6506731-sockets-io.lock'
+18 error  { [Error: EACCES, open '/Users/shiv/.npm/c6506731-sockets-io.lock']
+18 error   errno: 3,
+18 error   code: 'EACCES',
+18 error   path: '/Users/shiv/.npm/c6506731-sockets-io.lock' }
+19 error Please try running this command again as root/Administrator.
+20 error System Darwin 12.5.0
+21 error command "node" "/usr/local/bin/npm" "install" "sockets.io"
+22 error cwd /Users/shiv/Desktop/chat
+23 error node -v v0.8.18
+24 error npm -v 1.1.71
+25 error path /Users/shiv/.npm/c6506731-sockets-io.lock
+26 error code EACCES
+27 error errno 3
+28 error stack Error: EACCES, open '/Users/shiv/.npm/c6506731-sockets-io.lock'
+29 verbose exit [ 3, true ]
